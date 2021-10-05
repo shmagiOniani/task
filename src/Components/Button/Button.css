@@ -1,0 +1,23 @@
+#button {
+  padding: 15px 25px;
+  width: fit-content;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#button:hover {
+  cursor: pointer;
+}
+#button,
+.save {
+  background-color: green;
+}
+#button,
+.delete {
+  background-color: red;
+}
+#button,
+.primary {
+  background-color: blue;
+}
